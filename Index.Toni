@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Antonio Palop">
+        <meta name="description" content="Practicas SMX-2">
+        <title>Practicas</title>
+    </head>
+    <body>
+        <h1>Trabajos en clase - HTML5</h2>
+        <ul>
+            <li><a href="./etiquetas/etiquetas.html"> Etiquetas varias en HTML5 </a></li>
+  
+        
+      
+    </body>
+</html>
