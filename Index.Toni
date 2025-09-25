@@ -10,8 +10,9 @@
         <h1>Trabajos en clase - HTML5</h2>
         <ul>
             <li><a href="./etiquetas/etiquetas.html"> Etiquetas varias en HTML5 </a></li>
-  
-        
+            <li><a href="."> Etiquetas varias en HTML5 </a></li>
+            <li><a href="."> Etiquetas varias en HTML5 </a></li>
       
     </body>
+
 </html>
