@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
         <meta charset="UTF-8">
-        <meta name="author" content="Antonio Palop">
-        <meta name="description" content="Practicas SMX-2">
-        <title>Practicas</title>
+        <meta name="author" content="Toni Palop">
+        <meta name="description" content="Aplicaciones Webs">
+        <title>Aplicaciones Web</title>
     </head>
     <body>
-        <h1>Trabajos en clase - HTML5</h2>
+        <h1>Clase SMX2 Grado medio </h1>
+        
+   
+        <h2>Trabajos en claseHTML5</h2>
         <ul>
-            <li><a href="./etiquetas/etiquetas.html"> Etiquetas varias en HTML5 </a></li>
-            <li><a href="."> Etiquetas varias en HTML5 </a></li>
-            <li><a href="."> Etiquetas varias en HTML5 </a></li>
-      
+            <li><a href="./etiquetas/ud2-principales_etiquetas.html"> Etiquetas HTML5 </a></li>
+            <li><a href="./formulario/formularios.html"> Formularios HTML5 </a></li></li>
+            <li><a href="./proyecte/3.0.html"> Proyecto HTML5 </a></li></li>
+            <li><a href="./Tablas/tablas.html">Tablas HTML5 </a></li></li>
+            <li><a href="./vaga/Vaga 2 oct original.html">Huelga </a></li></li>
+            <li><a href="./"> </a></li></li>
+        </ul>
+
     </body>
+
 
 </html>
