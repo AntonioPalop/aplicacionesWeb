@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ofertas de VPS</title>
+  <style>
+    :root {
+      --azul: #4f00ff;
+      --borde: 2px solid var(--azul);
+      --radio: 10px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: white;
+      color: #111;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 40px auto;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    .rejilla {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      align-items: start;
+    }
+
+    .tarjeta {
+      border: var(--borde);
+      border-radius: var(--radio);
+      padding: 25px;
+      text-align: center;
+      background: #fff;
+    }
+
+    .tarjeta h3 {
+      font-size: 20px;
+      margin-bottom: 14px;
+    }
+
+    .detalle {
+      margin: 6px 0;
+      color: #222;
+    }
+
+    .precio {
+      color: var(--azul);
+      font-weight: 700;
+      margin-top: 10px;
+    }
+
+    /* Dos primeras iguales */
+    .tarjeta.community,
+    .tarjeta.pro {
+      height: 220px;
+    }
+
+    /* Tercera más larga */
+    .tarjeta.enterprise {
+      height: 340px;
+    }
+
+    /* Rectángulo azul subido */
+    .aviso {
+      grid-column: 1 / span 2;
+      background: var(--azul);
+      color: #fff;
+      border-radius: var(--radio);
+      padding: 20px;
+      text-align: left;
+      margin-top: -100px; /* sube el rectángulo azul para alinearse con la 3ª columna */
+    }
+
+    .aviso strong { font-weight: bold; }
+    .aviso em { font-style: italic; }
+
+    @media (max-width: 900px) {
+      .rejilla {
+        grid-template-columns: 1fr;
+      }
+      .tarjeta {
+        height: auto;
+      }
+      .aviso {
+        grid-column: 1 / -1;
+        margin-top: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Ofertas de VPS</h1>
+    <section class="rejilla">
+      <article class="tarjeta community">
+        <h3>Versión Community</h3>
+        <p class="detalle">30GB almacenamiento</p>
+        <p class="detalle">2 bases de datos MySQL</p>
+        <p class="precio">Gratuita</p>
+      </article>
+
+      <article class="tarjeta pro">
+        <h3>Versión Professional</h3>
+        <p class="detalle">100GB almacenamiento</p>
+        <p class="detalle">10 bases de datos MySQL</p>
+        <p class="detalle">Escritorio remoto</p>
+        <p class="precio">3,99€/mes</p>
+      </article>
+
+      <article class="tarjeta enterprise">
+        <h3>Versión Enterprise</h3>
+        <p class="detalle">1TB almacenamiento</p>
+        <p class="detalle">100 bases de datos MySQL</p>
+        <p class="detalle">Escritorio remoto</p>
+        <p class="detalle">10 conexiones simultáneas</p>
+        <p class="precio">15,99€/mes</p>
+      </article>
+
+      <aside class="aviso">
+        Prueba la versión <em>Professional</em> de forma gratuita durante
+        <strong>30 días</strong> y decide después si quieres suscribirte o no.
+      </aside>
+    </section>
+  </main>
+</body>
+</html>
