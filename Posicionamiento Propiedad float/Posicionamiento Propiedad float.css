@@ -1,0 +1,37 @@
+/* Estilo general para las tres cajas */
+.caja {
+    float: left;          /* Posicionamiento flotante a la izquierda */
+    text-align: center;   /* Número centrado (opcional, solo para que se vea bonito) */
+    line-height: 100px;   /* Ajustar luego según la altura de cada caja */
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+/* Primera caja */
+#caja1 {
+    background-color: blue;
+    border: 2px solid gray;
+    width: 50%;
+    height: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Segunda caja */
+#caja2 {
+    background-color: #ffffaa;  /* amarillo claro */
+    width: 20%;
+    height: 50px;
+    line-height: 50px;          /* para centrar el número verticalmente */
+}
+
+/* Tercera caja */
+#caja3 {
+    background-color: #ff8888;  /* rojo claro */
+    border: 1px double black;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    clear: left;                /* Empieza de nuevo pegada al margen izquierdo */
+}
+ 
